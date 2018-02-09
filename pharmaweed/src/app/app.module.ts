@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PharmaweedComponent } from './components/pharmaweed/pharmaweed.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    PharmaweedComponent
   ],
   imports: [
     BrowserModule
